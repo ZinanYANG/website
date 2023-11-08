@@ -1,0 +1,416 @@
+a {
+    color: #11999E;
+    text-decoration: none;
+    /* margin:10px; */
+}
+
+a:hover {
+    color: #eaf6f6;
+}
+
+.at {
+    margin: 16px auto 0px auto;
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding: 20px auto;
+}
+
+body {
+
+    color: #40514e;
+    margin: 0;
+    text-align: center;
+    /* Just use serif, san-serif and monospace . Do NOT use fantacy and cursive */
+    /* default is serif  */
+    font-family: serif;
+    /* font-family: 'Brush Script MT', cursive; */
+    /* font-family: 'Dancing Script', cursive; */
+    /* font-family: 'Delicious Handrawn', cursive; */
+    /* font-family: 'Sacramento', cursive; */
+
+}
+
+
+/* remove the bottom cloud from the flow and change from static to absolute */
+/* Static - this is the default value, all elements are in order as they appear in the document */
+/* Relative - the element is positioned relative to its normal position. */
+/* Absolute - the element is positioned absolutely to its first positioned parent */
+/* Fixed - the element is positioned related to the browser window */
+.bottom-cloud {
+    position: absolute;
+    margin-left: 100px;
+    top: 350px;
+    right: 700px;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding-top: 10px;
+    /* margin-bottom: 500px; */
+    /* width: 200px;
+    height: 200px;
+    border: solid 10px;
+    margin-left: 500px;
+    background-color: red; */
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Delicious Handrawn', cursive;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+}
+
+.contact_message {
+    width: 20%;
+    margin: 40px auto 60px;
+}
+
+.footer-link {
+    color: #11999E;
+    margin: 10px 20px;
+}
+
+/* center function only works for inline elements */
+h1 {
+    line-height: 2;
+    color: #66BFBF;
+    /* 1 em = 16 px = 100% */
+    /* 1 rem won't get affected wth chrome size */
+    /* rem is the most reliable and most least error prone */
+    /* 90/16 = 5.625 rem */
+    font-size: 5.625rem;
+    /* margin-top: 0; */
+    /* width: 200px; */
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+h2 {
+    color: #66BFBF;
+    font-weight: normal;
+    font-size: 2.5rem;
+    padding: 10px;
+}
+
+h3 {
+    color: #11999E;
+}
+
+.head {
+    height: 15%;
+    width: 15%;
+}
+
+
+.hobby_guitar {
+    /* height:10% ; */
+    width: 20%;
+
+}
+
+hr {
+    border: dotted #eaf6f6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+/* when you move an element that has relative position
+it doesn't affect anything else on screen */
+/* top bottom left right  */
+
+/* absolute position means that there is no relationsship 
+between absolute elements and other elements 
+fro example  right: 20 px means that adding 20 px of margin 
+from the right of its parent which is the body*/
+/* fixed means that when u scroll down and the div will move its position*/
+
+
+.intro {
+    width: 350px;
+    margin: auto;
+}
+
+.middle-container {
+    margin: 100px auto;
+    /* width: 200px;
+    height: 200px;
+    margin-left: 260px;
+    border: solid 20px;
+    background-color: blue; */
+}
+
+
+
+.mountain {
+    /* padding-top: 80px; */
+    padding-bottom: 200px;
+}
+
+.name {
+    /* font-family: 'Brush Script MT', cursive; */
+    /* font-family: 'Dancing Script', cursive; */
+    /* font-family: 'Delicious Handrawn', cursive; */
+    font-size: 5.625rem;
+    font-family: 'Sacramento', cursive;
+}
+
+p {
+    line-height: 2;
+}
+
+
+
+
+
+
+
+/* img/anchor/span is an inline display element NOT a block display element  */
+/* inline elements can NOT change the width but block elements can */
+/* inline-block display can change width and the best flexible */
+/* display : none can make it disappear */
+/* visibility can also make it disappear but the blank content can still be there */
+.pro {
+    text-decoration: underline;
+}
+
+.prog {
+    font-size: 2.5rem;
+}
+
+.programming_1 {
+    /* height:10% ; */
+    width: 20%;
+    float: left;
+    margin-right: 20px;
+    /* line-height: 50%; */
+
+
+}
+
+.programming_2 {
+    /* height:10% ; */
+    width: 20%;
+    float: right;
+    margin-left: 30px;
+}
+
+.skill-row {
+    width: 50%;
+    /* margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px; */
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 3;
+
+}
+
+.web2 {
+    /* height:10% ; */
+    width: 20%;
+    float: left;
+    margin-right: 20px;
+    /* line-height: 50%; */
+}
+
+
+.web3 {
+    /* height:10% ; */
+    width: 20%;
+    float: right;
+    margin-left: 30px;
+}
+
+.web4 {
+    /* height:10% ; */
+    width: 20%;
+    float: left;
+    margin-right: 20px;
+    /* line-height: 50%; */
+}
+
+.web5 {
+    /* height:10% ; */
+    width: 20%;
+    float: right;
+    margin-left: 30px;
+}
+
+.web6 {
+    /* height:10% ; */
+    width: 20%;
+    float: left;
+    margin-right: 20px;
+    /* line-height: 50%; */
+}
+
+.web7 {
+    /* height:10% ; */
+    width: 20%;
+    float: right;
+    margin-left: 30px;
+}
+
+.web8 {
+    /* height:10% ; */
+    width: 20%;
+    float: left;
+    margin-right: 20px;
+    /* line-height: 50%; */
+}
+
+.web9 {
+    /* height:10% ; */
+    width: 20%;
+    float: right;
+    margin-left: 30px;
+}
+
+.web10 {
+    /* height:10% ; */
+    width: 20%;
+    float: left;
+    margin-right: 20px;
+    /* line-height: 50%; */
+}
+
+.web11 {
+    /* height:10% ; */
+    width: 20%;
+    float: right;
+    margin-left: 30px;
+}
+
+.web12 {
+    /* height:10% ; */
+    width: 20%;
+    float: left;
+    margin-right: 20px;
+    /* line-height: 50%; */
+}
+
+.web13 {
+    /* height:10% ; */
+    width: 20%;
+    float: right;
+    margin-left: 30px;
+}
+
+.web14 {
+    /* height:10% ; */
+    width: 20%;
+    float: left;
+    margin-right: 20px;
+    /* line-height: 50%; */
+}
+
+.web15 {
+    /* height:10% ; */
+    width: 20%;
+    float: right;
+    margin-left: 30px;
+}
+
+.web16 {
+    /* height:10% ; */
+    width: 20%;
+    float: left;
+    margin-right: 20px;
+    /* line-height: 50%; */
+}
+
+.web17 {
+    /* height:10% ; */
+    width: 20%;
+    float: right;
+    margin-left: 30px;
+}
+
+.web18 {
+    /* height:10% ; */
+    width: 20%;
+    float: left;
+    margin-right: 20px;
+    /* line-height: 50%; */
+}
+
+.web19 {
+    /* height:10% ; */
+    width: 20%;
+    float: right;
+    margin-left: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.top-container {
+    background-color: #b9e4dd;
+    /* position: relative; */
+    /* padding-top: 100px; */
+    /* width: 200px;
+    height: 200px;
+    padding: 20px; 
+    border: solid 10px; */
+}
+
+.top-cloud {
+    position: absolute;
+    /* clockwise moving */
+    /* margin-left: 500px; */
+    left: 700px;
+    top: 20px;
+}
